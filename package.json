@@ -16,7 +16,7 @@
     "bankai": "^3.3.1",
     "browserify": "^13.1.1",
     "choo": "^3.3.0",
-    "csjs": "rtsao/csjs",
+    "csjs": "^1.0.6",
     "hyperkv": "^1.5.3",
     "hyperlog": "^4.10.0",
     "hyperlog-index": "^5.1.0",

@@ -2,7 +2,8 @@ var vars = require('./vars')
 var theme = vars.theme
 var colors = vars.colors
 var fonts = vars.fonts
-var css = require('csjs').noScope
+var csjs = require('csjs')
+var css = csjs.noScope
 
 var globalCss = css`
   html {

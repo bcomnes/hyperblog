@@ -1,6 +1,8 @@
 var choo = require('choo')
 var mainView = require('./views/main')
 var app = choo()
+var getCss = require('csjs/get-css')
+var insertCSS = require('insert-css')
 
 app.model({
   namespace: 'message',
@@ -17,6 +19,7 @@ app.router((route) => [
 if (module.parent) {
   module.exports = app
 } else {
-  require('insert-css')(require('csjs').getCss(require('./styles/global')))
+  var globalCss = require('./styles/global')
+  insertCSS(getCss(globalCss))
   app.start('#app-root')
 }
