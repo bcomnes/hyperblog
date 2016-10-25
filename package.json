@@ -33,7 +33,7 @@
     "dependency-check": "^2.6.0",
     "lev": "^3.3.1",
     "nodemon": "^1.11.0",
-    "request": "^2.75.0",
+    "request": "^2.76.0",
     "snazzy": "^5.0.0",
     "standard": "^8.4.0",
     "tape": "^4.6.2"
