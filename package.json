@@ -18,7 +18,7 @@
     "choo": "^3.3.0",
     "csjs": "^1.0.6",
     "hyperkv": "^1.5.3",
-    "hyperlog": "^4.10.2",
+    "hyperlog": "^4.10.3",
     "hyperlog-index": "^5.2.0",
     "hyperserv": "^3.0.1",
     "hyperstream": "^1.2.2",
