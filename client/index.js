@@ -20,7 +20,8 @@ if (module.parent) {
   module.exports = app
 } else {
   var globalCss = require('./styles/global')
-  insertCSS(getCss(globalCss))
+  // insertCSS(getCss(globalCss))
+  insertCSS(globalCss)
   app.start('#app-root')
   var BrowserStdout = require('browser-stdout')
   var pump = require('pump')
@@ -34,5 +35,4 @@ if (module.parent) {
   pump(ws.hello(), BrowserStdout(), function (err) {
     if (err) console.error(err)
   })
-
 }

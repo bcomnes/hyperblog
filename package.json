@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "hl": "lev ./logs/hyperlog",
-    "il": "lev ./logs/index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +20,6 @@
     "flush-write-stream": "^1.0.2",
     "hyperkv": "^1.5.3",
     "hyperlog": "^4.10.3",
-    "hyperlog-index": "^5.2.0",
     "hyperserv": "^3.0.1",
     "hyperstream": "^1.2.2",
     "level": "^1.5.0",
@@ -38,7 +35,6 @@
     "through2-spy": "^2.0.0",
     "changelog-maker": "^2.2.4",
     "dependency-check": "^2.6.0",
-    "lev": "^3.3.1",
     "nodemon": "^1.11.0",
     "request": "^2.76.0",
     "snazzy": "^5.0.0",
