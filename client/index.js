@@ -22,4 +22,17 @@ if (module.parent) {
   var globalCss = require('./styles/global')
   insertCSS(getCss(globalCss))
   app.start('#app-root')
+  var BrowserStdout = require('browser-stdout')
+  var pump = require('pump')
+  var ws = require('./lib/ws-client')
+
+  ws.foo('bah', function (err, data) {
+    if (err) console.error(err)
+    if (data) console.log(data)
+  })
+
+  pump(ws.hello(), BrowserStdout(), function (err) {
+    if (err) console.error(err)
+  })
+
 }
