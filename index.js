@@ -14,7 +14,7 @@ var argv = minimist(process.argv.slice(2), {
 var hyperstream = require('hyperstream')
 var browserify = require('browserify')
 var bankai = require('bankai')()
-var client = require('./client')
+var staticClient = require('./client/app')
 // var makeRoute = Hyperserv.makeRoute
 var js = bankai.js(browserify, require.resolve('./client'), {debug: true})
 var html = bankai.html({ favicon: false, css: false })
@@ -32,7 +32,7 @@ websocket.createServer({server: app.httpServer}, handle)
 app.router.set('/', function (req, res, opts, cb) {
   res.setHeader('Content-Type', 'text/html; charset=utf-8')
   const state = { message: { server: 'hello server!' } }
-  const inner = client.toString(req.url, state)
+  const inner = staticClient.toString(req.url, state)
   const hs = hyperstream({ 'body': { _appendHtml: inner } })
   pump(html(req, res), hs, res, cb)
 })
