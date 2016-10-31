@@ -62,7 +62,7 @@ function handle (stream) {
     if (err) {
       switch (err.message) {
         case 'premature close':
-          // console.log('socket disconnected')
+          console.log('premature close')
           break
         default:
           console.log(err)

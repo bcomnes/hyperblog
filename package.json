@@ -26,6 +26,7 @@
     "mkdirp": "^0.5.1",
     "multiplex-rpc": "^1.0.1",
     "pump": "^1.0.1",
+    "reconnect-core": "^1.3.0",
     "subleveldown": "^2.1.0",
     "utf-8-validate": "^1.2.1",
     "websocket-stream": "^3.3.0"
