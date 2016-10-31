@@ -6,5 +6,6 @@ A portable, p2p blogging server and client.  WIP.
 - [hyperlog](https://github.com/mafintosh/hyperlog) provides an append-only, p2p-syncable data store that backs the kv blog index.
 - [choo](https://github.com/yoshuawuyts/choo) provides universal server rendering and a client app.
 - [csjs](https://github.com/rtsao/csjs) provides css-in-js for a unified JS/CSS workflow.
+- [bankai](https://github.com/yoshuawuyts/bankai) provides buildstep free bundling of js and server rendered html
 - [hyperserv](https://github.com/bcomnes/hyperserv) provides a simple server and router.
 - [mutliplex-rpc](https://github.com/substack/multiplex-rpc) + [websocket-stream](https://github.com/maxogden/websocket-stream) + [reconnect-core](https://www.npmjs.com/package/reconnect-core) provides robust duplex rpc with streams between client and server
