@@ -7,3 +7,4 @@ A portable, p2p blogging server and client.  WIP.
 - [choo](https://github.com/yoshuawuyts/choo) provides universal server rendering and a client app.
 - [csjs](https://github.com/rtsao/csjs) provides css-in-js for a unified JS/CSS workflow.
 - [hyperserv](https://github.com/bcomnes/hyperserv) provides a simple server and router.
+- [mutliplex-rpc](https://github.com/substack/multiplex-rpc) + [websocket-stream](https://github.com/maxogden/websocket-stream) + [reconnect-core](https://www.npmjs.com/package/reconnect-core) provides robust duplex rpc with streams between client and server
