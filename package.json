@@ -19,7 +19,7 @@
     "csjs": "^1.0.6",
     "flush-write-stream": "^1.0.2",
     "hyperkv": "^1.5.3",
-    "hyperlog": "^4.10.3",
+    "hyperlog": "^4.10.5",
     "hyperserv": "^3.0.1",
     "hyperstream": "^1.2.2",
     "level": "^1.5.0",
