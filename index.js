@@ -20,8 +20,9 @@ var assets = bankai(require.resolve('./client'), {
   js: { debug: true },
   css: false
 })
-var js = assets.js
+
 var html = assets.html
+var js = assets.js
 
 // var spy = require('through2-spy')
 // var streamSpy = spy.ctor({wantStrings: true}, chunk => console.log(chunk))
