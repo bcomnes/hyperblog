@@ -12,12 +12,16 @@ var argv = minimist(process.argv.slice(2), {
   default: { port: 8000 }
 })
 var hyperstream = require('hyperstream')
-var browserify = require('browserify')
-var bankai = require('bankai')()
+var bankai = require('bankai')
 var staticClient = require('./client/app')
 // var makeRoute = Hyperserv.makeRoute
-var js = bankai.js(browserify, require.resolve('./client'), {debug: true})
-var html = bankai.html({ favicon: false, css: false })
+var assets = bankai(require.resolve('./client'), {
+  html: { favicon: false },
+  js: { debug: true },
+  css: false
+})
+var js = assets.js
+var html = assets.html
 
 // var spy = require('through2-spy')
 // var streamSpy = spy.ctor({wantStrings: true}, chunk => console.log(chunk))
