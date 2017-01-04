@@ -28,7 +28,7 @@
     "pump": "^1.0.2",
     "reconnect-core": "^1.3.0",
     "subleveldown": "^2.1.0",
-    "utf-8-validate": "^1.2.2",
+    "utf-8-validate": "^2.0.0",
     "websocket-stream": "^3.3.0"
   },
   "devDependencies": {
