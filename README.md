@@ -1,5 +1,7 @@
 # hyperblog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/hyperblog.svg)](https://greenkeeper.io/)
+
 A portable, p2p blogging server and client.  WIP.
 
 - [hyperkv](https://github.com/substack/hyperkv) provides conflict free, reproducable Key-Value blog index database between contributers local machines/devices, and the webserver.
