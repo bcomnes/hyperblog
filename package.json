@@ -11,14 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "JSONStream": "^1.2.1",
-    "bankai": "^3.3.1",
+    "bankai": "^7.5.0",
     "browser-stdout": "^1.3.0",
-    "browserify": "^13.3.0",
-    "bufferutil": "^1.3.0",
-    "choo": "^3.3.0",
+    "browserify": "^14.3.0",
+    "bufferutil": "^3.0.0",
+    "choo": "^5.4.0",
     "csjs": "^1.0.6",
     "flush-write-stream": "^1.0.2",
-    "hyperkv": "^1.7.1",
+    "hyperkv": "^2.0.3",
     "hyperlog": "^4.11.0",
     "hyperserv": "^4.0.1",
     "hyperstream": "^1.2.2",
@@ -28,8 +28,8 @@
     "pump": "^1.0.2",
     "reconnect-core": "^1.3.0",
     "subleveldown": "^2.1.0",
-    "utf-8-validate": "^1.2.2",
-    "websocket-stream": "^3.3.0"
+    "utf-8-validate": "^3.0.1",
+    "websocket-stream": "^4.0.0"
   },
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
@@ -38,8 +38,8 @@
     "dependency-check": "^2.7.0",
     "nodemon": "^1.11.0",
     "request": "^2.79.0",
-    "snazzy": "^5.0.0",
-    "standard": "^8.4.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
     "tape": "^4.6.2"
   }
 }
